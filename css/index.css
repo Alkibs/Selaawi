@@ -98,7 +98,7 @@ body {
 .container_content .one .container_image {
     width: 500px;
     height: 350px;
-    background-image: url(../images/image-2.jpg);
+    background-image: url(../images/image-3.jpg);
     background-size: cover;
 }
 .container_content .one .container_desc {
@@ -213,9 +213,53 @@ body {
 
 .container_product {
     width: 100%;
-    height: 350px;
+    height: 600px;
     text-align: center;
     margin:0px 0px;
-    padding: 2% 2%;
-    background-color: #dcdce1;
+    padding: 2% 0%;
+}
+.container_product .container_card_product {
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+}
+.container_product .container_card_product .product {
+    width: 30%;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, #6faa62 0px 2px 4px -1px;
+    
+}
+.container_product .container_card_product .product .button {
+    width: 150px;
+    height: 50px;
+    background-color: #6faa62 ;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 3%;
+    padding: 4% 0%;
+    color: black;
+}
+.container_product .container_card_product .product .image-product {
+    width: 100%;
+    height: 350px; 
+}
+.container_product .container_card_product .satu .image-product {
+    background-image: url(../images/produk-1.jpg);
+    background-size: cover;
+}
+.container_product .container_card_product .dua .image-product {
+    background-image: url(../images/asd.jpg);
+    background-size: cover;
+}
+.container_product .container_card_product .tiga .image-product {
+    background-image: url(../images/qwe.jpg);
+    background-size: cover;
+}
+.asd {
+    width: 100%;
+    height: 150px;
+    background-color: grey;
 }
