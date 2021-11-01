@@ -306,7 +306,7 @@ body {
         height: 350px;
         background-image: url(../images/image-3.jpg);
         background-size: cover;
-        background-position-x: -75px;
+        background-position-x: 50%;
     }
     .container_content .one .container_desc {
         width: 100%;
@@ -392,7 +392,7 @@ body {
         height: 350px;
         background-image: url(../images/image-3.jpg);
         background-size: cover;
-        
+        background-position-x: 50%;
     }
     .container_product {
         width: 100%;
