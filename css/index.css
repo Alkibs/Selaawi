@@ -55,7 +55,7 @@ body {
     height: 150px;
     text-align: center;
     padding: 0% 2%;
-    
+    line-height: 175%;
 }
 .container_video .container_desc_video p {
     font-family: 'Merriweather', serif;
@@ -262,4 +262,165 @@ body {
     width: 100%;
     height: 150px;
     background-color: grey;
+}
+
+@media only screen and (max-width: 480px) {
+    .container_jumbotron {
+        width: 100%;
+        height:500px;
+        position: relative;
+        /* background-image: linear-gradient(#FFC069 70%,white ) */
+        background-image: url(../images/hero.jpg);
+        background-size: cover;
+        background-position-x: -150px;
+        background-position-y:0px;
+        background-repeat: no-repeat;
+    }
+    .container_jumbotron .tagline {
+        color: white;
+        text-align: center;
+        position: absolute;
+        left: 10%;
+        top: 40%;
+        font-family: sans-serif;
+    }
+    .container_jumbotron .tagline h1 {
+        font-size: 36px;
+        
+    }
+    .container_video .container_desc_video {
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        padding: 0% 2%;
+        line-height: 175%;
+    }
+    .container_content .one {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .container_content .one .container_image {
+        width: 100%;
+        height: 350px;
+        background-image: url(../images/image-3.jpg);
+        background-size: cover;
+        background-position-x: -75px;
+    }
+    .container_content .one .container_desc {
+        width: 100%;
+        height: 300px;
+        padding: 8% 2%;
+        text-align: center;
+        line-height: 140%;
+    }
+    .container_content .one .container_desc .button {
+        width: 150px;
+        height: 50px;
+        background-color: #6faa62 ;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 3%;
+        padding-top: 3%;
+    }
+    .container_content .two {
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+    .container_content .two .container_desc {
+        width: 100%;
+        height: 325px;
+        order: 1;
+        padding: 8% 2%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 140%;
+    }
+    .container_content .two .container_desc h1 {
+        line-height: 130%;
+    }
+    .container_content .two .container_desc .button {
+        width: 150px;
+        height: 50px;
+        background-color: #6faa62 ;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 3%;
+        padding-top: 3%;
+    }
+    .container_content .two .container_image {
+        width: 100%;
+        height: 350px;
+        background-image: url(../images/image-1.jpg);
+        background-size: cover;
+        background-position-x: 40%;
+        order: 2;
+    }
+    .container_content .three {
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .container_content .three .container_desc {
+        width: 100%;
+        height: 350px;
+        padding: 8% 2%;
+        line-height: 140%;
+        text-align: center;
+    }
+    .container_content .three .container_desc h1 {
+        line-height: 130%;
+    }
+    .container_content .three .container_desc .button {
+        width: 150px;
+        height: 50px;
+        background-color: #6faa62 ;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 3%;
+        padding-top:3%;
+        color: black;
+    }
+    .container_content .three .container_image {
+        width: 100%;
+        height: 350px;
+        background-image: url(../images/image-3.jpg);
+        background-size: cover;
+        
+    }
+    .container_product {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin:0px 0px;
+        padding: 2% 0%;
+    }
+    .container_product .container_card_product {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0%;
+    }
+    .container_product .container_card_product .product {
+        width: 75%;
+        height: 450px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, #6faa62 0px 2px 4px -1px;
+        margin: auto;
+    }
+    .container_product .container_card_product .satu {
+        margin-bottom: 25px;
+    }
+    .container_product .container_card_product .dua {
+        margin-bottom: 25px;
+    }
+    .container_product .container_card_product .tiga {
+        margin-bottom: 25px;
+    }
+    
 }
