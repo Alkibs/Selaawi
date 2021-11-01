@@ -330,6 +330,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         background-color: white;
+        margin-bottom: 25px;
     }
     .container_content .two .container_desc {
         width: 100%;
