@@ -265,7 +265,7 @@ body {
     margin: auto;
     display: flex;
     position: relative;
-    
+    margin-bottom: 75px;
     justify-content: space-around;
     gap: 5%;
 }
@@ -280,12 +280,42 @@ body {
     height: 550px;
     border: 3px solid #6faa62 ;
     position: absolute;
-   left: -3%;
-   top: 5%;
+    left: -3%;
+    top: 5%;
 }
 .container_maker .desc {
     width: 55%;
     height: 150px;
+    line-height: 175%;
+}
+.container_maps {
+    width: 95%;
+    margin:auto;
+    border-radius: 25px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    padding: 2%;
+    gap: 2%;
+    
+}
+.container_maps .maps {
+    width: 600px;
+    height: auto;
+}
+.container_maps .desc {
+    width: auto ;
+    height: auto;
+    line-height: 175%;
+    color: white;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    margin-top: 50px;
 }
 @media only screen and (max-width: 480px) {
     .container_jumbotron {
