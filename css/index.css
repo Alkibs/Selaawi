@@ -318,6 +318,7 @@ body {
     margin-top: 50px;
 }
 @media only screen and (max-width: 480px) {
+    
     .container_jumbotron {
         width: 100%;
         height:500px;
@@ -477,5 +478,55 @@ body {
     .container_product .container_card_product .tiga {
         margin-bottom: 25px;
     }
-    
+    .container_maker {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        position: relative;
+        margin-bottom: 75px;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .container_maker .container_image {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 5%;
+    }
+    .container_maker .border {
+        width: 100vw;
+        height: 600px;
+        border: 3px solid #6faa62;
+        position: absolute;
+        left: -11%;
+        top: 35%;
+        display: none;
+    }
+    .container_maker .desc {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .container_maps {
+        width: 100%;
+        margin: auto;
+        border-radius: 25px;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        background-image: url(../images/bg.jpg);
+        background-size: cover;
+        padding: 2%;
+        flex-direction: column;
+        box-sizing: border-box;
+        
+    }
+    .container_maps .maps {
+        width: 95vw;
+    }
+    .container_maps .desc {
+        margin-top: 5%;
+        text-align: center ;
+    }
+
 }
