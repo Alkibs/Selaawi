@@ -1,158 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
-</head>
-<body>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger ">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slide-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container d-flex justify-content-around mt-5 mb-5 kontainer_card">
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-success">Contact Us</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-success">Contact Us</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="images/card-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-success">Contact Us</a>
+        </div>
+      </div>
+    </div>
     
-    <div class="container_menu">
-        <h2>Selaawi</h2>
-        <img src="images/instagram.png" alt="">
-    </div>
-    <div class="container_jumbotron">
-        <div class="tagline" data-aos="zoom-in">
-            <h1>S   E   L   A   A   W   I</h1>
-            <h2><span style="color: red;">INDONESIA</span> BAMBOO</h2>
-            <p>High quality bamboo original from indonesia</p>
+    <div class="kontainer d-flex">
+      <img src="images/sae.jpg" alt="logo-sae">
+        <div class="desc p-5">
+          <h1>Sae Logistik</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis possimus quae id veritatis dicta voluptate ad fuga provident omnis? Voluptatem accusantium inventore sunt dolorum labore dolores dolorem aut ipsam vel esse et quos ea, doloremque ducimus necessitatibus debitis numquam libero doloribus? Corrupti blanditiis fugit consequatur dignissimos itaque laborum odio reiciendis quo ut illo unde aliquam enim facilis nulla suscipit dolores, cumque, tempore quis incidunt nam sapiente? Mollitia ipsa ipsum sit! Similique molestiae cumque, aperiam fuga aspernatur a veniam illum.</p>
         </div>
     </div>
-    <div class="container_video" data-aos="zoom-in">
-        <div class="container_desc_video">
-            <h2>S E L A A W I</h2>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem quas placeat ex beatae necessitatibus dicta, ut iusto sed velit dolor, nobis culpa, dolores atque amet tempora repellat hic facere?Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem quas placeat ex beatae necessitatibus dicta, ut iusto sed velit dolor, nobis culpa, dolores atque amet tempora repellat hic facere?</p>
-        </div>
-        <div class="video">
 
-        </div>
+    <div class="kontainer_foto" style="text-align: center;">
+      <img src="images/peta.jpg" class="responsive" alt="peta-indonesia">
     </div>
-    <div class="container_content">
-        <div class="content one" data-aos="fade-right">
-            <div class="container_image">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-            </div>
-            <div class="container_desc">
-              <h1>ELEGANT AND COOL</h1>
-              <br>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod aperiam ipsa sint laudantium voluptas aliquam ducimus quae nulla. Neque voluptatem, aliquam laudantium fugit necessitatibus nemo ipsum nihil vel voluptatibus deserunt.</p>
-                <div class="button">
-                    <p>SHOP NOW!</p>
-                </div>  
-            </div>
-        </div>
-        <div class="content two" data-aos="zoom-in">
-            <div class="container_image">
-
-            </div>
-            <div class="container_desc">
-              <h1>ENVIRONMENTALLY FRIENDLY</h1>
-              <br>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod aperiam ipsa sint laudantium voluptas aliquam ducimus quae nulla. Neque voluptatem, aliquam laudantium fugit necessitatibus nemo ipsum nihil vel voluptatibus deserunt.</p>  
-              <div class="button">
-                <p>SHOP NOW!</p>
-            </div> 
-            </div>
-        </div>
-        <div class="content three" data-aos="fade-right">
-            <div class="container_image">
-
-            </div>
-            
-            <div class="container_desc">
-              <h1 >MAKE BAMBOO GREAT AGAIN</h1>
-              <br>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod aperiam ipsa sint laudantium voluptas aliquam ducimus quae nulla. Neque voluptatem, aliquam laudantium fugit necessitatibus nemo ipsum nihil vel voluptatibus deserunt.</p>
-              <a href="">  
-                <div class="button">
-                    <p>SHOP NOW!</p>
-                </div> 
-              </a>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="container_creator">
-        <h1>MEET OUR MAKERS</h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci voluptatem tempora veniam suscipit. Vero saepe unde, ipsa velit natus quos culpa blanditiis dicta nihil ducimus maxime exercitationem impedit quod.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci voluptatem tempora veniam suscipit. Vero saepe unde, ipsa velit natus quos culpa blanditiis dicta nihil ducimus maxime exercitationem impedit quod.</p>
-        <div class="container_card">
-            <div class="creator one">
-
-            </div>
-            <div class="creator two">
-
-            </div>
-            <div class="creator three"></div>
-        </div>
-    </div> -->
-    <div class="container_product">
-        <h1>Meet Our Product</h1>
-        <div class="container_card_product">
-            <div class="product satu">
-                <div class="image-product">
-                    
-                </div>
-                <div class="button" data-aos="flip-up">
-                    <p>SHOP NOW!</p>
-                </div>
-            </div>
-            <div class="product dua">
-                <div class="image-product">
-                    
-                </div>
-                <div class="button" data-aos="flip-up">
-                    <p>SHOP NOW!</p>
-                </div>
-            </div>
-            <div class="product tiga">
-                <div class="image-product">
-                    
-                </div>
-                <div class="button" data-aos="flip-up">
-                    <p>SHOP NOW!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container_maker" data-aos="zoom-out-up">
-        
-        <div class="container_image">
-
-        </div>
-        <div class="border">
-
-        </div>
-        <div class="desc">
-            <h1>Jonathan Christie</h1>
-            <h3>Bamboo Maker Selaawi</h3>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et id, totam numquam, deserunt, itaque recusandae impedit dolores assumenda est necessitatibus voluptatem consequatur deleniti neque eos repudiandae repellat asperiores iure!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim! Nulla reiciendis impedit accusantium laboriosam maiores beatae quaerat. Possimus ullam rem impedit eum error, vero a vitae hic quidem? Labore.</p>                        
-        </div>
-    </div>
-    <div class="container_maps" data-aos="fade-down">
-        <div class="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63361.589385279054!2d107.97422432688089!3d-6.99758196256775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68cb7dab306ed5%3A0xc429b6e1e9ab7a9!2sSelaawi%2C%20Garut%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1635853433134!5m2!1sen!2sid" width="600" height="450" style="border-radius:25px;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="desc">
-            <h1>SELAAWI</h1>
-            <h2>Geografis Location</h2>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nemo consequatur facere commodi ut qui corrupti reiciendis expedita quis earum architecto inventore libero vero, dolore consequuntur vel voluptas! Culpa, ipsam?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloribus ex maiores sit, corporis voluptatibus praesentium magnam. Expedita itaque veniam, tempore, dolores velit asperiores sed enim rerum assumenda iure earum.</p>
-        </div>
-    </div>
-    <div class="footer">
-
-    </div>
-</body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-  </script>
-<script src="nusantara.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
