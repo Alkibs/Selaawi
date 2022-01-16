@@ -59,8 +59,12 @@
         flex-direction: column-reverse;
         
     }
+    .kontainer_kurir .kontainer_foto {
+        text-align: center;
+    }
     .kontainer_kurir .kontainer_foto img {
         margin-bottom: 10%;
+        margin-left: 0 !important;
         min-width: 200px;
         max-width: 300px;
     }
