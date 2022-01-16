@@ -1,9 +1,17 @@
-.kontainer {
+.kontainer.logo {
     width: 100%;
     height: auto;
     /* background-color: #246d35; */
 }
 
+.kontainer.kurir {
+    width: 100%;
+    height: auto;
+    /* background-color: #246d35; */
+}
+.kontainer_logo .desc_logo {
+    background-color: #418d55;
+}
 .carousel-inner {
    
 }
@@ -34,11 +42,64 @@
     opacity: 0.7;
 }
 
-@media (min-width: 576px) {
+.footer {
+    width: 100%;
+    height: 15vh;
+    background-color:#418d55 ;
+}
+@media (max-width: 576px) {
     .kontainer_card {
         flex-direction: column;
+        align-items: center;
     }
-    .kontainer {
+    .kontainer_logo {
         flex-direction: column;
     }
+    .kontainer_kurir {
+        flex-direction: column-reverse;
+        
+    }
+    .kontainer_kurir img {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .kontainer_card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kontainer_logo {
+        flex-direction: column;
+    }
+    .kontainer_kurir {
+        flex-direction: column-reverse;
+        
+    }
+    .kontainer_kurir img {
+        margin-bottom: 10%;
+        
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .kontainer_card {
+        
+    }
+    .kontainer_logo img {
+        width: 40%;
+        display: block;
+    }
+    .kontainer_logo .desc_logo {
+        width: 60%;
+        font-size: small;
+    }
+    .kontainer_kurir .kontainer_foto img  {
+        min-width: 200px;
+        max-width: 300px;
+    }
+    .kontainer_kurir .desc {
+        font-size: small;
+    }
+
 }
